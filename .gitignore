@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files — ignore content, keep folder via .gitkeep
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+data/raw/**/*.png
+data/raw/**/*.gif
+data/raw/**/*.bmp
+data/raw/**/*.tiff
+data/processed_garbage/**/*.jpg
+data/processed_garbage/**/*.jpeg
+data/processed_garbage/**/*.png
+data/processed_garbage/**/*.gif
+data/processed_garbage/**/*.bmp
+data/processed_garbage/**/*.tiff
+
+# Agents
+.claude/settings.local.json
+.claude/todos/
+*claude*
+.claude/ 
+
+# Keep .gitkeep files
+!**/.gitkeep
