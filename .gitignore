@@ -28,6 +28,11 @@ data/processed_garbage/**/*.gif
 data/processed_garbage/**/*.bmp
 data/processed_garbage/**/*.tiff
 
+#svm model
+model/checkpoints_svm_hog_colorhist/
+*.pkl
+*.npz
+
 # Agents
 .claude/settings.local.json
 .claude/todos/
