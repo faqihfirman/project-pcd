@@ -28,10 +28,14 @@ data/processed_garbage/**/*.gif
 data/processed_garbage/**/*.bmp
 data/processed_garbage/**/*.tiff
 
-#svm model
+# Model binaries
+model/**/*.keras
 model/checkpoints_svm_hog_colorhist/
 *.pkl
 *.npz
+
+# Duplicate dataset under notebooks/
+notebooks/data/
 
 # Agents
 .claude/settings.local.json
